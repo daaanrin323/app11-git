@@ -1,0 +1,692 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Proyecto Final</title>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine3/style.css" />
+<script type="text/javascript" src="engine3/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app10-tema.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<!-- <script src="js/acciones.js"><script> -->
+ <script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+ 
+<body onLoad="MM_preloadImages('Sustitucion/unnamed.jpg','Sustitucion 2/paso_11.png','Sustitucion 3/maxresdefault (2).jpg','imagenes/Sustitucion 4/33944213_1127724204037475_5753116222069669888_n.jpg','imagenes/Sustitucion 5/sssssss.jpg','imagenes/Sustitucin 6/maxresdefault.jpg')">
+ 
+ <div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>DSAUPOO</h1>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Base de Datos</h1>
+<div>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/0.jpg" alt="0" title="0" id="wows1_0"/></li>
+		<li><img src="data1/images/1.png" alt="1" title="1" id="wows1_1"/></li>
+		<li><img src="data1/images/2.jpg" alt="2" title="2" id="wows1_2"/></li>
+		<li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_3"/></li>
+		<li><img src="data1/images/4.jpg" alt="4" title="4" id="wows1_4"/></li>
+		<li><img src="data1/images/5.png" alt="5" title="5" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/6.jpg" alt="wowslider" title="6" id="wows1_6"/></a></li>
+		<li><img src="data1/images/7.jpg" alt="7" title="7" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="0"><span><img src="data1/tooltips/0.jpg" alt="0"/>1</span></a>
+		<a href="#" title="1"><span><img src="data1/tooltips/1.png" alt="1"/>2</span></a>
+		<a href="#" title="2"><span><img src="data1/tooltips/2.jpg" alt="2"/>3</span></a>
+		<a href="#" title="3"><span><img src="data1/tooltips/3.jpg" alt="3"/>4</span></a>
+		<a href="#" title="4"><span><img src="data1/tooltips/4.jpg" alt="4"/>5</span></a>
+		<a href="#" title="5"><span><img src="data1/tooltips/5.png" alt="5"/>6</span></a>
+		<a href="#" title="6"><span><img src="data1/tooltips/6.jpg" alt="6"/>7</span></a>
+		<a href="#" title="7"><span><img src="data1/tooltips/7.jpg" alt="7"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+</div>
+</div>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina0000" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Analisis y Diseño de Sistemas 1</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina000" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Analisis y Diseño de Sistemas 2</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina00" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Analisis y Diseño de Sistemas 3</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina0" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Manipulacion de Bases de datos Enlazadas 1</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Manipulacion de Bases de datos Enlazadas 2</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Manipulacion de Bases de datos Enlazadas 3</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Funcionamiento del Sistema de Informacion 1</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Funcionamiento del Sistema de Informacion 2</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Funcionamiento del Sistema de Informacion 3</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Funcionamiento del Sistema de Informacion 4</h2>
+</a>
+</li>
+</ul>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<h4>Aplicacion Diez Rodrigo Daniel Bautista Pérez</h4>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina0000" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Analisis y Diseño de Sistemas 1</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Base de Datos</h1>
+<div align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','Sustitucion/unnamed.jpg',1)"><img src="Sustitucion/ciclo-vida-sistema-informacion.jpg" width="50%" height="50%" id="Image38"></a>
+</div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2>
+<font color="#FF0000">Ciclo de vida de un sistema:</font>
+<br>
+Cualquier sistema de información va pasando por una serie de fases a lo largo de su vida.Es un sistema, automatizado o manual, que engloba a personas, máquinas y/o métodos organizados para recopilar, procesar, transmitir datos que representan información. Un sistema de información engloba la infraestructura, la organización, el personal y todos los componentes necesarios para la recopilación, procesamiento, almacenamiento, transmisión, visualización, diseminación y organización de la información.
+<br>
+<font color="#FF0000">Análisis:</font>
+<br>
+Lo primero que debemos hacer para construir un sistema de información es averiguar qué es exactamente lo que tiene que hacer el sistema. La etapa de análisis en el ciclo de vida del software corresponde al proceso mediante el cual se intenta descubrir qué es lo que realmente se necesita y se llega a una comprensión adecuada de los requerimientos del sistema (las características que el sistema debe poseer).</h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina000" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Analisis y Diseño de Sistemas 2</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Base de Datos</h1>
+<div align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','Sustitucion 2/paso_11.png',1)"><img src="Sustitucion 2/bases-de-datos.png" width="70%" height="50%" id="Image39"></a> 
+</div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">Diseño:</font>
+<br>
+Su diseño debería ser modular en vez de monolítico. Sus módulos deberían ser cohesivos (encargarse de una tarea concreta y sólo de una) y estar débilmente acoplados entre sí (para facilitar el mantenimiento del sistema). Cada módulo debería ofrecer a los demás unos interfaces bien definidos (al estilo del diseño por contrato propuesto por Bertrand Meyer) y ocultar sus detalles de implementación (siguiendo el principio de ocultación de información de Parnas). Por último, debe ser posible relacionar las decisiones de diseño tomadas con los requerimientos del sistema que las ocasionaron (algo que se suele denominar "trazabilidad de los requerimientos").
+<br>
+<font color="#FF0000">Codificacion:</font>
+<br>
+Conocemos a la codificación como cualquier operación que implique la asignación de un valor de símbolos o caracteres a un determinado mensaje verbal o no verbal con el propósito de transmitirlo a otros individuos o entidades que compartan el código.
+<br>
+La codificación es algo tan simple como lo que realizamos a diario cuando transformamos imágenes visuales o entidades conceptuales en palabras, oraciones, textos y las comunicamos a aquellos que nos rodean. También es codificación aquellas operaciones más complejas que implican códigos compartidos por menos interlocutores, como puede ser un mensaje cifrado o información emitida mediante el código Morse. 
+<br>
+<font color="#FF0000">Elaboracion de manuales:</font>
+<br>
+INTRODUCCIÓN:<br>Se presenta al personaje entrevistado y se ofrecen algunas características que permiten al público conocerlo y saber el porqué de la entrevista.
+<br> 
+PREGUNTAS Y RESPUESTAS:<br> este intercambio se realiza a partir de las preguntas que formula el entrevistador y las respuestas que otorga el entrevistado.
+<br> 
+CIERRE:<br> en algunos casos, se puede incluir un cierre valorativo del entrevistador o incluso colocar al final una respuesta del entrevistado que sirva de conclusión para lo anterior. 
+</h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina00" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Analisis y Diseño de Sistemas 3</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Base de Datos</h1>
+<div align="center">
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','Sustitucion 3/maxresdefault (2).jpg',1)"><img src="Sustitucion 3/Imagen1.png" width="70%" height="50%" id="Image40"></a>
+</div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">Implementacion y Pruebas:</font>
+<br>
+<font color="#FF0000">Implementación</font>
+<br>
+Es el momento de pasar a la etapa de implementación, pero nunca antes. Antes de escribir una sola línea de código (o de crear una tabla en nuestra base de datos) es fundamental haber comprendido bien el problema que se pretende resolver y haber aplicado principios básicos de diseño que nos permitan construir un sistema de información de calidad.
+Para la fase de implementación hemos de seleccionar las herramientas adecuadas, un entorno de desarrollo que facilite nuestro trabajo y un lenguaje de programación apropiado para el tipo de sistema que vayamos a construir. La elección de estas herramientas dependerá en gran parte de las decisiones de diseño que hayamos tomado hasta el momento y del entorno en el que nuestro sistema deberá funcionar.
+<br>
+<font color="#FF0000">Pruebas</font>
+<br>
+La búsqueda de errores que se realiza en la etapa de pruebas puede adaptar distintas formas, en función del contexto y de la fase del proyecto en la que nos encontremos:
+- Las pruebas de unidad sirven para comprobar el correcto funcionamiento de un
+componente concreto de nuestro sistema.
+- Las pruebas de integración son las que se realizan cuando vamos juntando los componentes que conforman nuestro sistema y sirven para detectar errores en sus interfaces.
+<br> 
+<font color="#FF0000">Manual Tecnico y Usuario:</font>
+<br>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://prezi.com/ogxxyk_ialhn/manual-tecnico-y-manual-de-usuario/" data-role="button" id="Manual">
+<h2>Manuales</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina0" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Manipulacion de Bases de datos Enlazadas 1</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Base de Datos</h1>
+<div align="center">
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image42','','imagenes/Sustitucion 4/33944213_1127724204037475_5753116222069669888_n.jpg',1)"><img src="imagenes/Sustitucion 4/base-de-datos.png" width="60%" height="60%" id="Image42"></a> 
+ </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">Bases de datos orientadas a objetos:</font>
+<br>
+El modelo OO da lugar a las bases de datos orientados a objetos. Es un concepto totalmente distinto al de las
+bases de datos relacionales que responde al paradigma de la orientación a objetos desarrollado en programación
+de ordenadores en los últimos años.
+Al no estar constreñido por el formato de tablas, cuyas columnas responden a tipos atómicos, permite una
+mayor flexibilidad a la hora de incorporar tipos más complejos como los tipos geométricos (puntos, lineas,
+polígonos, etc.)Junto con los atributos, las clases incluyen un conjunto de métodos (acciones que pueden llevarse a cabo sobre los objetos).
+No se permite el acceso directo a los atributos sino sólo mediante sus métodos, esta propiedad se denomina
+encapsulamiento e incrementa la seguridad de los datos ante errores. Otra característica interesante es la
+herencia por la cual unos objetos pueden derivar de otros heredando sus atributos y métodos e incorporando
+otros.
+<br>
+<font color="#FF0000">Manejo de Sotfware Visual Basic y Bases de Datos:</font>
+<br>
+Estimados todos buenas tardes, estoy desde hace tiempo aprendiendo a programar en Visual Basic, pero a la verdad lo que mas me ha costado a sido crear una conexión entre bases de datos y el propio visual o aplicación. Lo que necesito hacer es que conecte la base de datos, busque registros, actualice, elimine datos etc... además de aprender a crear las conexiónes</h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Manipulacion de Bases de datos Enlazadas 2</h1>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2>        
+       <div data-role="main" class="ui-content">
+        <div id="disp">
+        <h1>EJEMPLO 7</h1>
+<table width="200" border="1" id="datos">
+        <tr>
+         <td width="83">Plactica 7 Ejemplo</td>
+         </tr>
+         <tr>
+         <td>Preparadores matemáticos</td>
+         <td>Suma (+), resta (-), multiplicación (*) y división (/).</td>
+         </tr>
+          <tr>
+         <td>Funciones</td>
+         <td>Responde a las preguntas acerca de un objeto, como su altura, ancho, profundidad e
+incluso la distancia respecto a otro objeto.</td>
+         </tr>
+         </table>
+         <h1>EJEMPLO 10</h1>
+         <table width="324" height="220" border="1">
+  <tr>
+    <td width="160" height="45"><em>Variable</em></td>
+    <td width="148"><em>Símbolos utilizados para expresar una relación entre dos expresiones.</em></td>
+  </tr>
+  <tr>
+    <td><em>Inicialización de variable</em></td>
+    <td><em>Para asignar un nombre a una variable y definir el tipo de dato que contendrá la variable.</em></td>
+  </tr>
+  <tr>
+    <td><em>Código Java en la parte  lateral</em></td>
+    <td><em>Lugar de la memoria en el que se pueden almacenar los datos de un tipo específico para su posterior recuperación y uso por parte del programa.</em></td>
+  </tr>
+  <tr>
+    <td><em>Declarar variable</em></td>
+    <td><em>Asignar un valor a una variable</em></td>
+  </tr>
+  <tr>
+    <td><em>Propiedades del objeto</em></td>
+    <td><em>Variables que almacenan información sobre el objeto, como el color, el ancho, la altura y la profundidad.</em></td>
+  </tr>
+</table>
+         </div>
+         </div>
+
+<font color="#FF0000">Enlazar Bases de Datos en Visual Basic 2010:</font>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.youtube.com/watch?v=9UwrU1Q5T1g" data-role="button" id="Enlaze">
+<h2>Enlaze BD</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+ 
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Manipulacion de Bases de datos Enlazadas 3</h1>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">Comandos SQL Básicos</font>
+<br>
+Definiendo cómo es almacenada la información.
+<br>
+CREATE DATABASE se utiliza para crear una nueva base de datos vacía.
+<br>
+DROP DATABASE se utiliza para eliminar completamente una base de datos existente.
+<br>
+CREATE TABLE se utiliza para crear una nueva tabla, donde la información se almacena realmente.
+<br>
+ALTER TABLE se utiliza para modificar una tabla ya existente.
+<br>
+DROP TABLE se utiliza para eliminar por completo una tabla existente.
+<br>
+<font color="#FF0000">Manipulando los datos.</font>
+<br>
+SELECT se utiliza cuando quieres leer (o seleccionar) tus datos.
+<br>
+INSERT se utiliza cuando quieres añadir (o insertar) nuevos datos.
+<br>
+UPDATE se utiliza cuando quieres cambiar (o actualizar) datos existentes.
+<br>
+DELETE se utiliza cuando quieres eliminar (o borrar) datos existentes.
+<br>
+REPLACE se utiliza cuando quieres añadir o cambiar (o reemplazar) datos nuevos o ya existentes.
+<br>
+TRUNCATE se utiliza cuando quieres vaciar (o borrar) todos los datos de la plantilla.</h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Funcionamiento del Sistema de Informacion 1</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Base de Datos</h1>
+<div align="center">
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/Sustitucion 5/sssssss.jpg',1)"><img src="imagenes/Sustitucion 5/descarga.jpg" width="60%" height="60%" id="Image25"></a> 
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">Altas, bajas y modificaciones en bases de datos MySQL con phpMyAdmin</font>
+<br>
+Esta tarea de creación o definición de la estructura de una tabla de datos siempre la realizaremos médiante una interfaz visual (como el phpMyAdmin o similares), ya que es mucho mas sencillo hacerlo de esta forma que mediante código SQL escrito a mano.
+
+Por el contrario, las tareas de manipulación de datos dentro de la tabla ya creada, las haremos desde páginas PHP creadas a tal efecto: crearemos un backend o panel de administración, que consistirá en una serie de paginas protegidas con usuario y contraseña; paginas que serán usada por el dueño o administrados del sitio, donde esta persona autorizada usará formularios que, una vez completados, agregarán registros a alguna de nuestras tablas, podrá modificar el valor de algún campo de determinado registro y, también, podrá borrarlos.
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.youtube.com/watch?v=eqJlDAJdgso" data-role="button" id="Manual">
+<h2>Alta BD</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+
+
+</h2></div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Funcionamiento del Sistema de Informacion 2</h1>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">Altas, bajas y modificaciones en bases de datos MySQL con phpMyAdmin</font>
+<br>
+Pero, hasta tanto no aprendamos lo necesario como para hacer esas tareas mediante códigos del lenguaje SQL, utilizaremos provisoriamente el phpMyAdmin y realizaremos "visualmente" las principales tareas de administración del contenido de una tabla, que son:
+<br>
+Agregar nuevos registros.
+<br>
+Borrar registros.
+<br>
+Modificar registros.
+<br>
+Ver un listado de los registros.
+<br>
+A estas operaciones de manipulación de los datos de una tabla se las conoce como proceso de ABM (siglas de "Altas", "Bajas", "Modificaciones").
+<br>
+Algunos le agregan a esta sigla una última letra L o C (la inicial de "Listados" o "Consultas", respectivamente), denominándolo ABML o ABMC.
+<br>
+También agregamos otra tarea: realizar una copia de seguridad (backup) y restaurarla.
+<br>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.youtube.com/watch?v=U-1IOJPgXgo" data-role="button" id="Manual">
+<h2>Baja BD</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</h2></div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Funcionamiento del Sistema de Informacion 3</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Base de Datos</h1>
+<div align="center">
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/Sustitucin 6/maxresdefault.jpg',1)"><img src="imagenes/Sustitucin 6/bulk-email-marketing.jpg" width="70%" height="50%" id="Image15"></a> 
+  </div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2><font color="#FF0000">Cambiar el nombre de un campo o tabla:</font>
+<br>
+Si es posible, debe evitar cambiar el nombre de un campo o tabla en una base de datos que se ha generado una de las plantillas proporcionadas, es probable que el campo o la tabla se use en otros objetos de base de datos, como formularios e informes. Por lo tanto, cambiar el nombre de campo o una tabla puede crear consecuencias cuando intente usar los otros objetos de base de datos que empleen el campo o tabla. El resto de objetos puede no funcionar según lo previsto si siguen haciendo referencia al nombre anterior. Para que los demás objetos para que funcione correctamente, debe cambiarse el nombre del antiguo al nuevo nombre. Si está seleccionada la casilla de verificación Realizar Autocorrección de nombres en la categoría Base de datos actual del cuadro de diálogo Opciones de Access, gran parte de este trabajo se realizará automáticamente.
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.youtube.com/watch?v=26p1oruLb2M" data-role="button" id="Manual">
+<h2>Modificar BD</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</h2>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Funcionamiento del Sistema de Informacion 4</h1>
+</div>
+
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Base de Datos</h1>
+<div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/1.jpg" alt="1" title="1" id="wows2_0"/></li>
+		<li><img src="data2/images/2.jpg" alt="2" title="2" id="wows2_1"/></li>
+		<li><img src="data2/images/3.png" alt="3" title="3" id="wows2_2"/></li>
+		<li><img src="data2/images/4.jpg" alt="4" title="4" id="wows2_3"/></li>
+		<li><img src="data2/images/5.jpg" alt="5" title="5" id="wows2_4"/></li>
+		<li><img src="data2/images/6.jpg" alt="6" title="6" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/7.jpg" alt="http://wowslider.com/" title="7" id="wows2_6"/></a></li>
+		<li><img src="data2/images/8.png" alt="8" title="8" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data2/tooltips/1.jpg" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data2/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data2/tooltips/3.png" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data2/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data2/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data2/tooltips/6.jpg" alt="6"/>6</span></a>
+		<a href="#" title="7"><span><img src="data2/tooltips/7.jpg" alt="7"/>7</span></a>
+		<a href="#" title="8"><span><img src="data2/tooltips/8.png" alt="8"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</div>
+</div>
+</div>
+
+<div data-role="content" align="center">
+<div>
+<h2>Por ultimo para concluir en el tema del Desarrolla Software de Aplicacion Utilizando Programación Orientada a Objetos | DSAUPOO, abajo habra dos link para tener una idea mas clara de todo lo anterior
+<br>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.youtube.com/watch?v=yoeV4Ex8C8U&list=PLs1sXiNvW4OyJCZs5WR3OjPZTlIqNcvQi" data-role="button" id="Manual">
+<h2>Base Datos</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%">
+<ul data-role="controlgroup" data-type="vertical" data-theme="a">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.youtube.com/watch?v=ZAiBR472Kas&list=PL0yfy89pewyPtrO8otv7SY41xbCic09e5" data-role="button" id="Manual">
+<h2>Base Datos2</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container3">
+<div class="ws_images"><ul>
+		<li><img src="data3/images/1.png" alt="1" title="1" id="wows3_0"/></li>
+		<li><img src="data3/images/2.jpg" alt="2" title="2" id="wows3_1"/></li>
+		<li><img src="data3/images/3.jpg" alt="3" title="3" id="wows3_2"/></li>
+		<li><img src="data3/images/4.jpg" alt="4" title="4" id="wows3_3"/></li>
+		<li><a href="http://wowslider.com"><img src="data3/images/5.jpg" alt="wowslider" title="5" id="wows3_4"/></a></li>
+		<li><img src="data3/images/6.jpg" alt="6" title="6" id="wows3_5"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1"><span><img src="data3/tooltips/1.png" alt="1"/>1</span></a>
+		<a href="#" title="2"><span><img src="data3/tooltips/2.jpg" alt="2"/>2</span></a>
+		<a href="#" title="3"><span><img src="data3/tooltips/3.jpg" alt="3"/>3</span></a>
+		<a href="#" title="4"><span><img src="data3/tooltips/4.jpg" alt="4"/>4</span></a>
+		<a href="#" title="5"><span><img src="data3/tooltips/5.jpg" alt="5"/>5</span></a>
+		<a href="#" title="6"><span><img src="data3/tooltips/6.jpg" alt="6"/>6</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine3/wowslider.js"></script>
+<script type="text/javascript" src="engine3/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/persona_azul.png" width="46" height="46">
+</div>
+<h4>Aplicacion Diez, RDBP</h4>
+</div>
+</div>
+</body>
+</html>
